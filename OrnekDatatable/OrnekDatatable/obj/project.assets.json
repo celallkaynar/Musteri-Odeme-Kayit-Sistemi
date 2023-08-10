@@ -1,0 +1,130 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "ADGV/0.1.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/net40/AdvancedDataGridView.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net40/AdvancedDataGridView.dll": {
+            "related": ".XML"
+          }
+        },
+        "resource": {
+          "lib/net40/fr/AdvancedDataGridView.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/ru/AdvancedDataGridView.resources.dll": {
+            "locale": "ru"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ADGV/0.1.0.10": {
+      "sha512": "leJ7YvECR+X/Sx5TS4Y5QETpRL4V08DMuje28PxHmAt9s+oVfEfmjVKzDZLkVfHZGcXJBMFjVRYeN3dfFl+s9A==",
+      "type": "package",
+      "path": "adgv/0.1.0.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "adgv.0.1.0.10.nupkg.sha512",
+        "adgv.nuspec",
+        "lib/net40/AdvancedDataGridView.XML",
+        "lib/net40/AdvancedDataGridView.dll",
+        "lib/net40/fr/AdvancedDataGridView.resources.dll",
+        "lib/net40/ru/AdvancedDataGridView.resources.dll",
+        "readme.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "ADGV >= 0.1.0.10"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\celal\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Projeler Visual Studio\\form\\OrnekDatatable\\OrnekDatatable\\OrnekDatatable\\OrnekDatatable.csproj",
+      "projectName": "OrnekDatatable",
+      "projectPath": "D:\\Projeler Visual Studio\\form\\OrnekDatatable\\OrnekDatatable\\OrnekDatatable\\OrnekDatatable.csproj",
+      "packagesPath": "C:\\Users\\celal\\.nuget\\packages\\",
+      "outputPath": "D:\\Projeler Visual Studio\\form\\OrnekDatatable\\OrnekDatatable\\OrnekDatatable\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\celal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "ADGV": {
+            "target": "Package",
+            "version": "[0.1.0.10, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'ADGV 0.1.0.10' paketi, proje hedef çerçevesi 'net6.0-windows7.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
+      "libraryId": "ADGV",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}

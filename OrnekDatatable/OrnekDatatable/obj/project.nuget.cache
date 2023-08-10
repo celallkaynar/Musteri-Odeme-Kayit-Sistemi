@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "636ZAtN5JT1YW0AUUpaN8TmcnY412qDyKCLz0DZDAZ534WsrX3dcP96NCOSst9sU100YSFccu2Kv663+wNQzkw==",
+  "success": true,
+  "projectFilePath": "D:\\Projeler Visual Studio\\form\\OrnekDatatable\\OrnekDatatable\\OrnekDatatable\\OrnekDatatable.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\celal\\.nuget\\packages\\adgv\\0.1.0.10\\adgv.0.1.0.10.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'ADGV 0.1.0.10' paketi, proje hedef çerçevesi 'net6.0-windows7.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
+      "libraryId": "ADGV",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "OrnekDatatable/1.0.0": {
+        "dependencies": {
+          "ADGV": "0.1.0.10"
+        },
+        "runtime": {
+          "OrnekDatatable.dll": {}
+        }
+      },
+      "ADGV/0.1.0.10": {
+        "runtime": {
+          "lib/net40/AdvancedDataGridView.dll": {
+            "assemblyVersion": "0.1.0.10",
+            "fileVersion": "0.1.0.10"
+          }
+        },
+        "resources": {
+          "lib/net40/fr/AdvancedDataGridView.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/ru/AdvancedDataGridView.resources.dll": {
+            "locale": "ru"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OrnekDatatable/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ADGV/0.1.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-leJ7YvECR+X/Sx5TS4Y5QETpRL4V08DMuje28PxHmAt9s+oVfEfmjVKzDZLkVfHZGcXJBMFjVRYeN3dfFl+s9A==",
+      "path": "adgv/0.1.0.10",
+      "hashPath": "adgv.0.1.0.10.nupkg.sha512"
+    }
+  }
+}
